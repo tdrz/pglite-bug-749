@@ -8,17 +8,14 @@ importers:
 
   .:
     dependencies:
-      '@electric-sql/pglite':
-        specifier: 0.3.6
-        version: 0.3.6
+      pglite:v0.3.5:
+        specifier: link:@electric-sql/pglite:v0.3.5
+        version: link:@electric-sql/pglite:v0.3.5
       vitest:
         specifier: ^3.2.4
         version: 3.2.4
 
 packages:
-
-  '@electric-sql/pglite@0.3.6':
-    resolution: {integrity: sha512-KFIoLIhiOzYQzT2TOxqWH9eAMZcZd4tzSGXDY+6qRboZY2P76yFDNTKS4SB2c3hy6vRqIrHSh24VDPi9FyNhlA==}
 
   '@esbuild/aix-ppc64@0.25.8':
     resolution: {integrity: sha512-urAvrUedIqEiFR3FYSLTWQgLu5tb+m0qZw0NBEasUeo6wuqatkMDaRT+1uABiGXEu5vqgPd7FGE1BhsAIy9QVA==}
@@ -531,8 +528,6 @@ packages:
     hasBin: true
 
 snapshots:
-
-  '@electric-sql/pglite@0.3.6': {}
 
   '@esbuild/aix-ppc64@0.25.8':
     optional: true
