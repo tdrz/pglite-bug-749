@@ -1,0 +1,15 @@
+{
+  "name": "pglite-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.test.js",
+  "type": "module",
+  "dependencies": {
+    "@electric-sql/pglite": "0.3.6",
+    "vitest": "^3.2.4"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "private": true
+}
