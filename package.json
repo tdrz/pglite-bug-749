@@ -11,5 +11,6 @@
   "scripts": {
     "test": "vitest"
   },
+  "packageManager": "pnpm@10.11.0",
   "private": true
 }
